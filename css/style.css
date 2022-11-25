@@ -1,0 +1,558 @@
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/gilroy-medium.eot"); /* IE 9 Compatibility Mode */
+  src: url("../fonts/gilroy-medium.eot?#iefix") format("embedded-opentype"),
+    /* IE < 9 */ url("../fonts/gilroy-medium.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/gilroy-medium.woff")
+      format("woff"),
+    /* Firefox >= 3.6, any other modern browser */
+      url("../fonts/gilroy-medium.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/gilroy-medium.svg#gilroy-medium")
+      format("svg"); /* Chrome < 4, Legacy iOS */
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+ф :active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+body {
+  width: 375px;
+  height: 4435px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  position: relative;
+}
+.main-container {
+  background-color: white;
+  width: 375px;
+  height: 4435px;
+}
+.big-container {
+  padding-top: 59px;
+}
+.box1 {
+  padding-left: 26px;
+  font-size: 47px;
+  line-height: 58px;
+  color: #000000;
+  width: 124px;
+  height: 106px;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+}
+.svg {
+  position: absolute;
+  top: 68px;
+  left: 312px;
+  width: 33px;
+  height: 19.19px;
+}
+.box2 {
+  position: absolute;
+  left: 7.47%;
+  top: 4.37%;
+  font-size: 18px;
+  font-family: "Gilroy-Medium";
+  font-weight: 500;
+  line-height: 22px;
+  color: #090909;
+  width: 155.65px;
+  height: 44.06px;
+}
+.jpg {
+  position: absolute;
+  width: 316.5px;
+  height: 478px;
+  left: 29px;
+  top: 275px;
+}
+.block {
+  position: absolute;
+  left: 0px;
+  top: 836px;
+  width: 375px;
+  height: 491px;
+  background: #f6f6f6;
+}
+.box3 {
+  margin-top: 81px;
+  margin-left: 109px;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  width: 155.65px;
+  height: 43.06px;
+}
+.block2 {
+  width: 316px;
+  height: 261px;
+  margin-left: 29px;
+  font-family: "Gilroy-Medium";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+.box4 {
+  position: absolute;
+  left: 38.13%;
+  top: 31.79%;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+.box5 {
+  position: absolute;
+  left: 19.73%;
+  top: 33.51%;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+.svg3 {
+  position: absolute;
+  z-index: 2;
+  left: 38%;
+
+  top: 35.65%;
+}
+.box6 {
+  position: absolute;
+  left: 40.41%;
+  top: 38.19%;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  width: 70.29px;
+  height: 27.27px;
+}
+.svg4 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 104px;
+  top: 1761.29px;
+}
+.svg5 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 141.1px;
+  top: 1761.29px;
+}
+.svg6 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 176.19px;
+  top: 1761.29px;
+}
+.svg7 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 211.29px;
+  top: 1761.29px;
+}
+.svg8 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 246.39px;
+  top: 1761.29px;
+}
+.svg9 {
+  position: absolute;
+  left: 142.87px;
+  top: 1869px;
+  width: 89.21px;
+  height: 88.57px;
+  z-index: 2;
+}
+.box7 {
+  position: absolute;
+  left: 41.58%;
+  right: 41.55%;
+  top: 44.66%;
+  bottom: 54.73%;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
+.svg10 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 104px;
+  top: 2049.27px;
+}
+.svg11 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 141.1px;
+  top: 2049.27px;
+}
+.svg12 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 176.19px;
+  top: 2049.27px;
+}
+.svg13 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 211.29px;
+  top: 2049.27px;
+}
+.svg14 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 246.39px;
+  top: 2049.27px;
+}
+.svg15 {
+  position: absolute;
+  left: 143.23px;
+  top: 2156px;
+  width: 89.21px;
+  height: 88.57px;
+  z-index: 2;
+}
+.box8 {
+  position: absolute;
+  left: 39.53%;
+  top: 51.13%;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  width: 79.33px;
+  height: 27.27px;
+  color: #828282;
+}
+.svg16 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 104px;
+  top: 2336.27px;
+}
+.svg17 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 141.1px;
+  top: 2336.27px;
+}
+.svg18 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 176.19px;
+  top: 2336.27px;
+}
+.svg19 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 211.29px;
+  top: 2336.27px;
+}
+.svg20 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 246.39px;
+  top: 2336.27px;
+}
+.svg21 {
+  position: absolute;
+  left: 160.65px;
+  top: 2444px;
+}
+.box9 {
+  position: absolute;
+  left: 44.98%;
+  right: 44.04%;
+  top: 57.65%;
+  bottom: 42.14%;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
+.svg26 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 104px;
+  top: 2623.27px;
+}
+.svg27 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 141.1px;
+  top: 2623.27px;
+}
+.svg28 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 176.19px;
+  top: 2623.27px;
+}
+.svg29 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 211.29px;
+  top: 2623.27px;
+}
+.svg30 {
+  position: absolute;
+  width: 26.07px;
+  height: 26px;
+  left: 246.39px;
+  top: 2623.27px;
+}
+.block3 {
+  position: absolute;
+  width: 375px;
+  height: 1118px;
+  left: 0px;
+  top: 2748px;
+  background: #f6f6f6;
+}
+.box10 {
+  position: absolute;
+  left: 32.27%;
+  top: 81px;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+.jpg2 {
+  position: absolute;
+  width: 316px;
+  height: 171px;
+  left: 29px;
+  top: 189px;
+}
+.box11 {
+  position: absolute;
+  left: 49px;
+  top: 393px;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: underline;
+}
+.jpg3 {
+  position: absolute;
+  width: 316px;
+  height: 176px;
+  left: 29px;
+  top: 493px;
+}
+.box12 {
+  position: absolute;
+  left: 86px;
+  top: 704px;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: underline;
+}
+.jpg4 {
+  position: absolute;
+  width: 316px;
+  height: 176px;
+  left: 29px;
+  top: 804px;
+}
+.box13 {
+  position: absolute;
+  left: 58px;
+  top: 1015px;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: underline;
+}
+.box14 {
+  position: absolute;
+  left: 30.67%;
+  top: 89.02%;
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+.box15 {
+  position: absolute;
+  left: 13.33%;
+  top: 90.6%;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  width: 275.14px;
+  height: 44.06px;
+  color: #090909;
+}
+.button {
+  position: absolute;
+  width: 316px;
+  height: 42px;
+  left: 29px;
+  top: 4102px;
+  background: #000000;
+  border-radius: 50px;
+}
+.box16 {
+  font-family: "Gilroy-Medium";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+.block4 {
+  position: absolute;
+  left: 7.73%;
+  top: 94.54%;
+  width: 40.17px;
+  height: 40.06px;
+}
+.svg32 {
+  position: absolute;
+  width: 20.09px;
+  height: 20.03px;
+  left: 11.05px;
+  top: 9.01px;
+}
+.svg33 {
+  position: absolute;
+  left: 121px;
+  top: 4192px;
+}
+.svg34 {
+  position: absolute;
+  width: 40.11px;
+  height: 40px;
+  left: 213px;
+  top: 4192.22px;
+}
+.svg35 {
+  position: absolute;
+  left: 305px;
+  top: 4192px;
+}
+.box17 {
+  position: absolute;
+  left: 7.73%;
+  top: 96.53%;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #828282;
+  width: 315px;
+  height: 64px;
+}
